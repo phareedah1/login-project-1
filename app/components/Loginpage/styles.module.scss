@@ -50,29 +50,23 @@
         margin-bottom: 12px;
       }
   
+
+
       .small_text {
-        font-size: 0.9rem;
+        font-size: 1rem;
         color: #b3b3b3;
 
-        a {
+        label{
           color: blue;
-          text-decoration: none;
-          &:hover {
-            text-decoration: underline;
-          }
         }
       }
-
       .small_text2 {
         font-size: 1rem;
         color: #b3b3b3;
 
-        a {
+        label{
+          font-size: 1.2rem;
           color: white;
-          text-decoration: none;
-          &:hover {
-            text-decoration: none;
-          }
         }
       }
   

@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './styles.module.scss'
-import Link from 'next/link';
 
 const SignUp: React.FC = () => {
   return (
@@ -23,8 +22,8 @@ const SignUp: React.FC = () => {
         </div>
         <div>
           <div></div>
-          <p className={styles.small_text2}>New to Netflix ? <a href ='/learn'>Sign up now</a></p>
-          <p className={styles.small_text}>This page is protected my Google reCAPTCHA to ensure you are not a bot <a href ='/learn'>Learn more</a></p>
+          <p className={styles.small_text2}>New to Netflix ? <label>Sign up now</label></p>
+          <p className={styles.small_text}>This page is protected my Google reCAPTCHA to ensure you are not a bot <label>Learn more</label></p>
         </div>
       </div>
     </div>
